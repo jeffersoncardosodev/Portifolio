@@ -124,7 +124,7 @@ const Contact = () => {
         
         <div className="mt-12 text-center">
           <h3 className="text-xl font-semibold mb-4 text-white">Ou entre em contato diretamente por:</h3>
-          <div className="flex justify-center space-x-8">
+          <div className="flex flex-col md:flex-row items-center gap-4 justify-center space-x-8">
             <a href="mailto:contato@exemplo.com" className="flex items-center text-gray-300 hover:text-white">
               <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
