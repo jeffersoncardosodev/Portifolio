@@ -1,4 +1,4 @@
-# Portfólio Pessoal
+# Portifólio Pessoal
 
 Este é um site de portfólio pessoal criado com React e estilizado com Tailwind CSS.
 
