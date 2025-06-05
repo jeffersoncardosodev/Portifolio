@@ -6,7 +6,7 @@ const Skills = () => {
       name: 'HTML', 
       level: 90,
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-6 mr-2 text-yellow-400" viewBox="0 0 384 512" fill="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-6 mr-2 text-yellow-400"  viewBox="0 0 384 512" fill="currentColor">
           <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
         </svg>
       )
@@ -75,7 +75,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {skills.map((skill, index) => (
             <div key={index} className="bg-gray-900 p-6 rounded-lg shadow-md">
-              <div className="flex items-center justify-center mb-3">
+              <div className="flex items-center justify-center mb-3" data-aos="fade-right">
                 {skill.icon}
                 <h3 className="text-xl font-semibold text-white">{skill.name}</h3>
                

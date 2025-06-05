@@ -7,13 +7,15 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">Sobre Mim</h2>
         
         <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+          <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8"
+               data-aos="fade-up-right">
             <div className="aspect-square max-w-md mx-auto bg-gray-800 rounded-lg shadow-md flex items-center justify-center">
               <span className="text-gray-500 text-6xl">Foto</span>
             </div>
           </div>
           
-          <div className="md:w-1/2">
+          <div className="md:w-1/2"
+               data-aos="fade-up-left">
             <p className="text-lg mb-4 text-gray-300">
               Olá! Sou um desenvolvedor front-end apaixonado por criar experiências digitais bonitas e funcionais. 
               Com experiência em desenvolvimento web, especializo-me em construir aplicações 
