@@ -19,7 +19,7 @@ const Hero = () => {
               data-aos="fade-right">Desenvolvedor <span className="text-yellow-500">Front-end</span></h2>
           <p className="text-lg mb-6 text-gray-300"
               data-aos="fade-left">
-            Crio interfaces modernas e responsivas com React e outras tecnologias web.
+            Transformo boas ideias em interfaces que conectam pessoas.
           </p>
           <div className="flex space-x-4"
           data-aos="fade-left">

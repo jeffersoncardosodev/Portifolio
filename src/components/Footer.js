@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-white mt-6 pt-6 flex flex-col md:flex">
+        <div className="border-t border-white mt-6 pt-6 flex flex-col md:flex justify-center items-center">
           <p>© {currentYear} Jefferson Dev. Todos os direitos reservados.</p>
         </div>
       </div>
